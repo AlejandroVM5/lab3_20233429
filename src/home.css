@@ -1,0 +1,54 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+#menu {
+    background-color: #cccccc;
+    padding: 15px;
+}
+
+#menu a {
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+
+.bienvenida {
+    background-image: url('img/fondo_bienvenida.jpg');
+    height: 300px;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.informacion {
+    display: flex;
+    background-color: lightblue;
+}
+
+.columna {
+    width: 50%;
+    padding: 30px;
+}
+
+.contacto {
+    padding: 30px;
+    background-color: white;
+}
+
+.boton-enviar {
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+}
